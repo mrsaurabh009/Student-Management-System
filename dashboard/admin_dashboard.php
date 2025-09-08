@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once '../config/database.php';
+require_once '../config/environment.php';
 
 
 if (!isset($_SESSION['admin_id']) || $_SESSION['user_type'] !== 'admin') {
