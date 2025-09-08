@@ -1,0 +1,34 @@
+# PHP Files
+*.log
+*.tmp
+*.temp
+
+# Database
+*.sql.backup
+*.db
+
+# Uploads (keep structure but ignore actual files)
+uploads/profile_pics/*
+!uploads/profile_pics/.gitkeep
+
+# Debug files
+dashboard/debug_log.txt
+dashboard/debug*.php
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.bak
+*.old
+*~
+
+# Config files with sensitive data (if any)
+config/local.php
